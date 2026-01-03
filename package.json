@@ -1,0 +1,14 @@
+{
+  "name": "rest-api-mini-project",
+  "version": "1.0.0",
+  "author": "Saptaparno Chakraborty",
+  "type": "commonjs",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
