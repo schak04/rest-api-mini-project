@@ -58,7 +58,7 @@ app.route('/api/users/:id')
     });
 
 app.listen(port, () => {
-    console.log(`Server started at port ${port}...`);
-    console.log(`Open http://localhost:${port}/users in your browser to get HTML data`);
-    console.log(`Open http://localhost:${port}/api/users in your browser to get JSON data`);
+    console.log(`Server listening on port ${port}`);
+    console.log(`http://localhost:${port}/users`);
+    console.log(`http://localhost:${port}/api/users`);
 })
