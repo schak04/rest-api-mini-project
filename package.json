@@ -9,6 +9,7 @@
     "start": "nodemon index.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^9.1.3"
   }
 }
